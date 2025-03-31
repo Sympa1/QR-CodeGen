@@ -31,16 +31,14 @@ Dieser QR-Code Generator ermöglicht das einfache Erstellen von QR-Codes mit vol
 
 ```
 .
-├── bash/
-│   ├── gitPull.sh
-│   └── gitPush.sh
-├── powershell/
-│   ├── gitPull.ps1
-│   └── gitPush.ps1
-├── .gitignore
-├── .env
-├── LICENSE
-└── README.md
+├── img/
+│   ├── qr-code-outline.ico
+|   ├── qr-code-outline.svg
+│   └── qrcode_gui.png
+├── gui_mockup.dio
+├── main.py
+├── README.md
+└── requirements.txt
 ```
 
 ## Installation
@@ -71,14 +69,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Mitmachen
-
-1. Repository forken
-2. Feature-Branch erstellen (`git checkout -b feature/neues-feature`)
-3. Änderungen committen (`git commit -m 'Neues Feature hinzugefügt'`)
-4. Push zum Branch (`git push origin feature/neues-feature`)
-5. Pull Request erstellen
-
 ## Bekannte Probleme
 
 - Keine bekannten Probleme
@@ -87,12 +77,8 @@ pip install -r requirements.txt
 
 - Pillow 11.1.0
 - qrcode 8.0.0
-- PyInstaller 6.11.1
+- colorama==0.4.6
 
 ## Lizenz
 
-[Lizenztyp einfügen, z.B. MIT License]
-
-## Kontakt
-
-[Ihre Kontaktinformationen oder GitHub-Profil]
+Dieses Projekt ist unter der [Lizenz] lizenziert - siehe die [LICENSE](LICENSE)-Datei für Details.
