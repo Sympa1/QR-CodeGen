@@ -81,4 +81,4 @@ pip install -r requirements.txt
 
 ## Lizenz
 
-Dieses Projekt ist unter der [Lizenz] lizenziert - siehe die [LICENSE](LICENSE)-Datei für Details.
+Dieses Projekt ist unter der BSD-3-Clause license  lizenziert - siehe die [LICENSE](LICENSE)-Datei für Details.
